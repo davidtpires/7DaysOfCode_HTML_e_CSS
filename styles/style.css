@@ -120,3 +120,38 @@ body {
     width: 791px;
     text-align: center;
 }
+
+.metricas-container {
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+    padding: 0 80px 96px 80px;
+}
+
+.metricas-container__metrica {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.metricas-container__metrica__titulo {
+    color: var(--main-color);
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.metricas-container__metrica__subtitulo {
+    color: var(--text-color-titulo);
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.metricas-container__metrica__paragrafo {
+    color: var(--text-color);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
