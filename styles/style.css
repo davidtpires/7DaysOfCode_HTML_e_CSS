@@ -41,7 +41,7 @@ body {
     margin-left: 8px;
     color: var(--cor-texto-logo);
     font-family: var(--font-principal);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ body {
     display: flex;
     gap: 32px;
     margin: 5px;
-    font-size: 16px;
+    font-size: 1rem;
       
 }
 
@@ -65,7 +65,7 @@ body {
     text-decoration: none;
     color: var(--cor-texto-logo);
     font-family: var(--font-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -78,7 +78,7 @@ body {
     font-family: var(--font-principal);
     color: var(--text-color);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 10px 18px;
 }
 
@@ -100,21 +100,21 @@ body {
 
 .header__sobrenos {
     font-family: var(--font-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--main-color);
 }
 
 .header__titulo {
     font-family: var(--font-principal);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     color: var(--text-color-titulo);
 }
 
 .header__subtitulo {
     font-family: var(--font-principal);
-    font-size: 20px;
+    font-size: 1,25rem;
     font-weight: 400;
     color: var(--text-color);
     width: 791px;
@@ -138,14 +138,14 @@ body {
     color: var(--main-color);
     font-family: var(--font-principal);
     font-weight: 600;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .metricas-container__metrica__subtitulo {
     color: var(--text-color-titulo);
     font-family: var(--font-principal);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
@@ -153,5 +153,50 @@ body {
     color: var(--text-color);
     font-family: var(--font-principal);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.vagas__tag {
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--main-color);
+    background-color: #8E24240D;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.vagas__subtitulo {
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--text-color-titulo);
+}
+
+.vagas__texto {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.vagas__imagem {
+    width: 100%;
 }
