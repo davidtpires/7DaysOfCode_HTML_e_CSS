@@ -11,9 +11,11 @@
     --text-color-titulo: #101828;
 
     --border-color: #EAECF0;
+    --border-color-input: #D0D5DD;
     --background-secundario: #C3191908;
+    --text-color-opaco: #98A2B3;
 
-
+    --background-rodape: #F9FAFB
 
 }
 
@@ -319,4 +321,71 @@ body {
     font-size: 0.87rem;
     text-align: center; 
     margin-top: 4px;
+}
+
+.rodape {
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--background-rodape);
+
+}
+
+.rodape__titulo {
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--text-color-titulo);
+}
+
+.rodape__subtitulo {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.rodape__form {
+    width: 100%;
+    text-align: center;
+
+}
+
+.rodape__form__input {
+    font-family: var(--font-principal);
+    background-color: transparent;
+    border: 1px solid var(--border-color-input);
+    color: var(--text-color-titulo);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1em;
+    width: 30%;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.rodape__form__input::placeholder {
+    color: var(--text-color);
+}
+
+.rodape__form__botao {
+    border-radius: 8px;
+    background-color: var(--main-color);
+    padding: 12px 20px;
+    border: solid 1px var(--main-color);
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-fundo);
+}
+
+.rodape__titulo__direitos{
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--text-color-opaco);
 }
